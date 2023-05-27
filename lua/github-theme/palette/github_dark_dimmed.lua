@@ -81,7 +81,7 @@ local palette = {
   },
 
   canvas = {
-    default = scale.gray[10],
+    default = "#ff0000",
     overlay = scale.gray[9],
     inset = scale.black,
     subtle = scale.gray[9],
@@ -167,11 +167,11 @@ local palette = {
 local function generate_spec(pal)
   -- stylua: ignore start
   local spec = {
-    bg0  = alpha(C(pal.canvas.inset), 0.75),         -- Dark bg (status line, popup and float)
+    bg0  = "#ff0000",         -- Dark bg (status line, popup and float)
     bg1  = "#ff0000",                                -- Default bg
-    bg2  = alpha(C(pal.neutral.emphasis), 0.1),      -- Lighter bg (colorcolumn Folds)
-    bg3  = alpha(C(pal.fg.default), 0.1),            -- Lighter bg (cursor line)
-    bg4  = pal.scale.gray[4],                        -- Conceal
+    bg2  = "#ff0000",      -- Lighter bg (colorcolumn Folds)
+    bg3  = "#ff0000",            -- Lighter bg (cursor line)
+    bg4  = "#ff0000",                        -- Conceal
 
     fg0  = pal.fg.subtle,                            -- Lighter fg
     fg1  = pal.fg.default,                           -- Default fg
