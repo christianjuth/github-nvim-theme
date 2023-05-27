@@ -51,7 +51,7 @@ local scale = {
 
 C.WHITE = C(scale.white)
 C.BLACK = C(scale.black)
-C.BG = C(scale.gray[10])
+C.BG = "#ff0000"
 
 local function alpha(color, a)
   return color:alpha_blend(a):to_css()
@@ -168,7 +168,7 @@ local function generate_spec(pal)
   -- stylua: ignore start
   local spec = {
     bg0  = alpha(C(pal.canvas.inset), 0.75),         -- Dark bg (status line, popup and float)
-    bg1  = "#22272E",                                -- Default bg
+    bg1  = "#ff0000",                                -- Default bg
     bg2  = alpha(C(pal.neutral.emphasis), 0.1),      -- Lighter bg (colorcolumn Folds)
     bg3  = alpha(C(pal.fg.default), 0.1),            -- Lighter bg (cursor line)
     bg4  = pal.scale.gray[4],                        -- Conceal
