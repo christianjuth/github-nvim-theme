@@ -1,7 +1,7 @@
 local C = require('github-theme.lib.color')
 
 local meta = {
-  name = 'github_dark_dimmed',
+  name = 'github_dark_dimmed_2',
   light = false,
 }
 
