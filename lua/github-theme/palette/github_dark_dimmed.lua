@@ -9,7 +9,7 @@ local meta = {
 ---source: https://github.com/primer/primitives/blob/main/data/colors/themes/dark_dimmed.ts
 -- stylua: ignore
 local scale = {
-  black = '#1c2128',
+  black = '#ff0000',
   white = '#cdd9e5',
   gray = {
     '#ff0000', '#ff0000', '#ff0000', '#ff0000', '#ff0000',
